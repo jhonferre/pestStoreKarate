@@ -1,0 +1,27 @@
+Conclusiones del Ejercicio de Pruebas con Karate
+
+1. Configuración Inicial:
+   - Se estableció la configuración inicial en `karate-config.js` con las variables `newUser` y `updatedUser`.
+   - Se configuraron los tiempos de espera y el registro detallado de solicitudes y respuestas.
+
+2. Creación de Usuario:
+   - Se creó un nuevo usuario utilizando la API de PetStore.
+   - El ID del usuario se obtuvo de la respuesta y se asignó correctamente a las variables `newUser.id` y `updatedUser.id` después de convertirlo a entero.
+
+3. Recuperación de Usuario:
+   - Se verificó que el usuario creado se puede recuperar correctamente utilizando su nombre de usuario.
+   - La respuesta de la API coincidió con los datos del usuario creado.
+
+4. Actualización de Usuario:
+   - Se actualizó el nombre y el correo electrónico del usuario.
+   - La respuesta de la API confirmó que la actualización fue exitosa.
+
+5. Verificación de Usuario Actualizado:
+   - Se verificó que los cambios en el usuario se reflejaron correctamente al recuperar el usuario actualizado.
+
+6. Eliminación de Usuario:
+   - Se eliminó el usuario creado.
+   - La respuesta de la API confirmó que la eliminación fue exitosa.
+
+Conclusión:
+El ejercicio demostró cómo manejar variables y validar respuestas en Karate de manera efectiva. Se logró crear, recuperar, actualizar y eliminar un usuario en la API de PetStore, asegurando que los datos se manejaron y validaron correctamente en cada paso del proceso.
