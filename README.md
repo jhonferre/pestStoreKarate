@@ -39,17 +39,14 @@ Para ejecutar las pruebas, sigue estos pasos:
    ```
 2. Ejecuta las pruebas con Gradle:
    ```sh
-   gradle test
+   gradle clean test
    ```
 
 ## Ver Reporte de Pruebas
 
-Después de ejecutar las pruebas, puedes ver el reporte generado por Karate siguiendo estos pasos:
+Después de ejecutar las pruebas, puedes ver el reporte generado por Karate en el archivo html de la siguiente ruta:
 
-1. Navega al directorio `build/karate-reports`:
-   ```sh
-   cd build/karate-reports
-   ```
+`build/karate-reports/karate-summary.html`
 
 ## Casos de Prueba
 
