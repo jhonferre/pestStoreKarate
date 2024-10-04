@@ -15,7 +15,7 @@ El objetivo de este proyecto es realizar pruebas de servicios REST para las sigu
 ## Requisitos
 
 - Java 8 o superior
-- Gradle 6.0 o superior
+- Gradle 8.0 o superior
 
 ## Instalación
 
