@@ -24,11 +24,6 @@ El objetivo de este proyecto es realizar pruebas de servicios REST para las sigu
    git clone https://github.com/jhonferre/pestStoreKarate.git
    cd pestStoreKarate
    ```
-
-2. Compila el proyecto:
-   ```sh
-   gradle build
-   ```
 ## Ejecución de Pruebas
 
 Para ejecutar las pruebas, sigue estos pasos:
@@ -39,7 +34,7 @@ Para ejecutar las pruebas, sigue estos pasos:
    ```
 2. Ejecuta las pruebas con Gradle:
    ```sh
-   gradle clean test
+   ./gradlew build clean test
    ```
 
 ## Ver Reporte de Pruebas
